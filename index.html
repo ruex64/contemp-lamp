@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto+Condensed:wght@700&family=Roboto+Slab&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav">
+            <img src="img/dark-logo.png" class="brand-logo" alt="">
+            <div class="nav-items">
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="search brand, product">
+                    <button class="search-btn">search</button>
+                </div>
+                <a href="#"><img src="img/user.png" alt=""></a>
+                <a href="#"><img src="img/cart.png" alt=""></a>
+            </div>
+        </div>
+        </nav>
+        
+    <div class="card">
+        <div class="img">
+            <img src="a.jpg" alt="" onclick="clk(this)"> <br>
+            <img src="b.jpg" alt=""   onclick="clk(this)"> <br>
+            <img src="c.jpg" alt=""  onclick="clk(this)"> <br>
+            <img src="d.jpg" alt=""  onclick="clk(this)"> <br>
+            <img src="e.jpg" alt=""  onclick="clk(this)"> <br>
+
+
+        </div>
+        <div class="left">
+            <img src="a.jpg" id="imgs" alt="">
+        </div>
+
+        <div class="right">
+            <h3>Inventor:- Pratibha(12001087)</h3>
+            <h3>Mentor:- Sakshi Suri(27448)</h3>
+            <h1>Glowing Halo Light</h1>
+            <!-- <h1>₹314</h1> -->
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <p>: Glowing halo light is a stylish and elegant addition to any moders interior design. The lower half of the pendant light is made of glass material, which not only adds an attractive aesthetic but also allows for diffused and even lighting.</p>
+            <p>: The dome shape of the light fixture provides a wide and even distribution of light, making it an ideal choice for any room where one wants to create a warm and inviting atmosphere.</p>
+            <h4>Theme:- Contemporary Theme</h4>
+            <p>: Future scope: The Glowing Halo fight can be used in a variety of settings such as in the living room, dining room, or bedroom or can also be used in commercial settings such as batels, restaurants, and offices This tylish lighting option will add an estra layer of sophistication and elegance to any interior space.</p>
+             <button>Add To Cart</button>
+             <button>Buy Now</button>
+
+        </div>
+    </div>
+
+    <script>
+        function clk(newImg){
+            let getImg=document.getElementById("imgs");
+            getImg.src=newImg.src;
+        }
+    </script>
+</body>
+</html>
